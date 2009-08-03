@@ -22,7 +22,7 @@ class Person
   has n, :projects,
     :through => :project_memberships
 
-  has n, :tasks,
-    :through => :projects
+  # has n, :tasks,
+  #   :through => :projects
   
 end
